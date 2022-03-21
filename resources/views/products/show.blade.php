@@ -25,5 +25,29 @@
                 {{ $product->ProductName }}
             </div>
         </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Product Description:</strong>
+                {{ $product->ProductDescription }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Product Price:</strong>
+                {{ $product->ProductPrice }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Product Qty:</strong>
+                {{ $product->ProductQty }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Remarks:</strong>
+                {{ $product->Remarks }}
+            </div>
+        </div>
     </div>
 @endsection
